@@ -6,9 +6,19 @@
 
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    font-size: 60px;
+}
+
+h1:hover{
+    color: green;
+    text-decoration: underline;
+    transition: .3s;
+    transform: skew(-45deg);
 }
 
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: red;
+    font-size: 45px;
 }
